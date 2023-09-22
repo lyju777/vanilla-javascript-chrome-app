@@ -1,14 +1,131 @@
-.hidden{
+.hidden {
     display: none;
 }
 
+input,
+button {
+    border: none;
+    background: none;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+    outline: none;
+    box-shadow: none;
+}
+
 img {
-    position:absolute;
-    width:100%;
-    height:100%;
-    left: 0px;
-    top: 0px;
-    right:0px;
-    bottom:0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     z-index: -1;
-    }
+}
+
+/* Body 스타일 */
+body {
+    /* font-family: Arial, sans-serif; */
+    background-color: #0a0a0a;
+    padding: 0;
+    color: white;
+}
+
+/* 로그인 폼 스타일 */
+#login-form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#login-form input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: none;
+    color: white;
+}
+
+#login-form input[type="submit"] {
+    background-color: #ff0079;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* 시계 스타일 */
+#clock {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* 할 일 목록 스타일 */
+#todo-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#todo-form input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+}
+
+#todo-container {
+    position: relative;
+    top: 380px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 200px;
+    /* 부모 요소의 높이를 고정 */
+    background-color: #f0f0f000;
+    /* 배경색을 설정 (선택사항) */
+    overflow: hidden;
+    /* 내용이 부모 요소의 높이를 넘어갈 경우 스크롤 표시 (선택사항) */
+}
+
+#todo-List {
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 인용구 스타일 */
+#quote {
+    text-align: center;
+    margin-top: -180px;
+    font-style: italic;
+}
+
+#quote span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* 날씨 스타일 */
+#weather {
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+#weather span {
+    display: block;
+}
+
+/* 인사말 스타일 */
+#greeting {
+    font-size: 36px;
+    text-align: center;
+}
