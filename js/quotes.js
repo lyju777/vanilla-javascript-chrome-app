@@ -13,11 +13,6 @@ const quotes = [
   },
   {
     quote:
-      "If you cannot fly then run. If you cannot run, then walk. And if you cannot walk, then crawl, but whatever you do, you have to keep moving forward.",
-    author: "Martin Luther King Jr.",
-  },
-  {
-    quote:
       "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
     author: "Thomas Edison",
   },
@@ -25,11 +20,6 @@ const quotes = [
     quote:
       "The fastest way to change yourself is to hang out with people who are already the way you want to be",
     author: "REid Hoffman",
-  },
-  {
-    quote:
-      "Money is like gasoline during a road trip. You do not want to run out of gas on your trip, but you are not doing a tour of gas stations",
-    author: "Tim O Reilly",
   },
   {
     quote:
